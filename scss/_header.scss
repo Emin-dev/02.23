@@ -1,0 +1,27 @@
+html {
+  scroll-behavior: smooth;
+}
+a {
+  color: black;
+}
+$font: Poppins, sans-serif;
+#header {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background: white;
+  .logo {
+    font-size: 25px;
+    font-weight: 600;
+  }
+  a {
+    text-transform: uppercase;
+    padding: 10px;
+    margin-left: 15px;
+    font-family: $font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 60px;
+  }
+}
