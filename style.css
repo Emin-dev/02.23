@@ -434,4 +434,82 @@ h2 {
 #myservices .box:hover h3 {
   color: white;
 }
+
+#latesworks {
+  padding: 100px 0px;
+}
+
+#latesworks .box {
+  overflow: hidden;
+  position: relative;
+  margin: 10px 0px;
+}
+
+#latesworks .box img {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 5px;
+}
+
+#latesworks .box h3,
+#latesworks .box h4 {
+  line-height: 20px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  opacity: 0;
+  color: white;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+#latesworks .box .overlay {
+  border-radius: 5px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  opacity: 0;
+  background: rgba(9, 10, 12, 0.5);
+}
+
+#latesworks .box h3 {
+  top: 40%;
+  left: 25%;
+  -webkit-transform: scale(1.6);
+          transform: scale(1.6);
+  font-weight: 600;
+}
+
+#latesworks .box h4 {
+  top: 50%;
+  left: 45%;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 500;
+  font-size: 14px;
+}
+
+#latesworks .box:hover h3 {
+  left: 30%;
+  opacity: 1;
+}
+
+#latesworks .box:hover h4 {
+  left: 50%;
+  opacity: 1;
+}
+
+#latesworks .box:hover img {
+  -webkit-transform: scale(1.14);
+          transform: scale(1.14);
+}
+
+#latesworks .box:hover .overlay {
+  opacity: 1;
+}
 /*# sourceMappingURL=style.css.map */
