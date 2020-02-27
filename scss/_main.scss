@@ -2,9 +2,9 @@ html {
   scroll-behavior: smooth;
 }
 a {
-    outline: none;
+  outline: 0;
   &:focus {
-    outline: none;
+    outline: 0;
   }
   color: black;
   &:hover {
@@ -20,6 +20,8 @@ h4,
 h5,
 h6,
 p,
+.date,
+.tag,
 a,
 li {
   font-family: $font;

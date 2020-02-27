@@ -3,12 +3,12 @@ html {
 }
 
 a {
-  outline: none;
+  outline: 0;
   color: black;
 }
 
 a:focus {
-  outline: none;
+  outline: 0;
 }
 
 a:hover {
@@ -22,6 +22,8 @@ h4,
 h5,
 h6,
 p,
+.date,
+.tag,
 a,
 li {
   font-family: Poppins, sans-serif;
@@ -601,5 +603,174 @@ h2 {
   #TESTIMONIALS .blog {
     display: none;
   }
+}
+
+#latesblogs {
+  padding: 100px 0px;
+}
+
+#latesblogs .txtbox {
+  background: #ffffff;
+  margin: -30px 10px 0;
+  position: relative;
+  padding: 18px;
+  -webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.19);
+          box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.19);
+}
+
+#latesblogs .txtbox .date {
+  background: #d9832e;
+  font-size: 12px;
+  position: absolute;
+  top: -26px;
+  padding: 7px 20px;
+  color: #ffffff;
+  border-radius: 0;
+  left: 0px;
+}
+
+#latesblogs .txtbox .tag {
+  background: #ffffff;
+  padding: 0px 12px;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 12px;
+  border-radius: 3px;
+  border: 1px solid #ddd;
+  color: #555a64;
+  font-weight: 400;
+  line-height: 1.6;
+  margin-bottom: 8px;
+}
+
+#latesblogs .txtbox h3 {
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 1.2;
+  color: #090a0c;
+}
+
+#latesblogs .txtbox h4 {
+  margin-bottom: 18px;
+  font-size: 15px;
+  color: #555a64;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+#latesblogs .txtbox a {
+  color: #d9832e;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-bottom: 2px solid currentColor;
+}
+
+#latesblogs .box {
+  margin-bottom: 50px;
+}
+
+#getintouch {
+  padding: 100px 0px;
+  background: #eaedf2;
+}
+
+#getintouch .SAYSOMETHING {
+  -webkit-box-shadow: 0px 3px 10px 0px rgba(38, 59, 94, 0.1);
+          box-shadow: 0px 3px 10px 0px rgba(38, 59, 94, 0.1);
+  border-radius: 5px;
+  padding: 5%;
+  background: white;
+}
+
+#getintouch .SAYSOMETHING h5 {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+#getintouch .SAYSOMETHING input {
+  width: 100%;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  font-size: 14px;
+  padding: 10px 20px;
+  padding-left: 0px;
+  font-family: Poppins, sans-serif;
+  outline: 0;
+}
+
+#getintouch .SAYSOMETHING textarea {
+  margin-bottom: 20px;
+  width: 100%;
+  height: 80px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  font-size: 14px;
+  padding: 10px 20px;
+  padding-left: 0px;
+  font-family: Poppins, sans-serif;
+  outline: 0;
+}
+
+#getintouch .SAYSOMETHING .btn {
+  padding: 0px;
+}
+
+#getintouch .SAYSOMETHING a {
+  text-transform: uppercase;
+  background: #d9832e;
+  border: none;
+  padding: 14px 22px;
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+}
+
+#getintouch .box {
+  -webkit-box-shadow: 0px 3px 10px 0px rgba(38, 59, 94, 0.1);
+          box-shadow: 0px 3px 10px 0px rgba(38, 59, 94, 0.1);
+  padding: 5%;
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#getintouch .box .icon {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  color: #ffffff;
+  background: #d9832e;
+  font-size: 19px;
+  line-height: 40px;
+  margin-right: 20px;
+}
+
+#getintouch .box .name {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+#getintouch .box .name h3 {
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+#getintouch .box .name h4 {
+  font-size: 14px;
+  color: #555a64;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+#getintouch .phonebox {
+  margin: 20px 0px;
 }
 /*# sourceMappingURL=style.css.map */
