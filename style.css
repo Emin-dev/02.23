@@ -93,6 +93,7 @@ h2 {
 }
 
 #header .iconmenu {
+  cursor: pointer;
   display: inline-block;
   margin: 10px;
   padding: 10px;
@@ -722,11 +723,17 @@ h2 {
 #getintouch .SAYSOMETHING a {
   text-transform: uppercase;
   background: #d9832e;
+  -webkit-transition: .5s;
+  transition: .5s;
   border: none;
   padding: 14px 22px;
   font-size: 14px;
   font-weight: 500;
   color: white;
+}
+
+#getintouch .SAYSOMETHING a:hover {
+  background: #090a0c;
 }
 
 #getintouch .box {
@@ -760,7 +767,7 @@ h2 {
 #getintouch .box .name h3 {
   font-size: 15px;
   font-weight: 500;
-  margin-bottom: 8px;
+  margin-bottom: 12px;
 }
 
 #getintouch .box .name h4 {
@@ -771,6 +778,28 @@ h2 {
 }
 
 #getintouch .phonebox {
-  margin: 20px 0px;
+  margin: 22px 0px;
+}
+
+#footer {
+  background: black;
+  padding: 20px;
+  color: white;
+}
+
+#footer h6 {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 12px;
+}
+
+#footer i {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 15px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+#footer i:hover {
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
